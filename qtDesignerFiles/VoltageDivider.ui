@@ -362,7 +362,7 @@
          </size>
         </property>
         <property name="inputMask">
-         <string>9999999999</string>
+         <string/>
         </property>
         <property name="text">
          <string/>
@@ -390,7 +390,7 @@
          </size>
         </property>
         <property name="inputMask">
-         <string>9999999999</string>
+         <string/>
         </property>
         <property name="text">
          <string/>
@@ -418,7 +418,7 @@
          </size>
         </property>
         <property name="inputMask">
-         <string>9999999999</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -443,7 +443,7 @@
          </size>
         </property>
         <property name="inputMask">
-         <string>9999999999</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -468,7 +468,7 @@
          </size>
         </property>
         <property name="inputMask">
-         <string>9999999999</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -493,7 +493,7 @@
          </size>
         </property>
         <property name="inputMask">
-         <string>9999999999</string>
+         <string/>
         </property>
        </widget>
       </item>
