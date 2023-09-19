@@ -1,10 +1,8 @@
+import UIClasses.MainWindow
 from PySide6.QtWidgets import QApplication
-from mainWindow import MainWindow
-import sys
+from PySide6.QtCore import Qt
 
-app = QApplication(sys.argv)
-
-mainWindow = MainWindow(app)
-mainWindow.show()
+app = QApplication()
+mainWindow = UIClasses.MainWindow.MainWindow()
 
 app.exec()

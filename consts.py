@@ -1,1 +1,0 @@
-VERSION = "Alpha 0.1"
