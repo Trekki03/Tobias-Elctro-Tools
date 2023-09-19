@@ -1,5 +1,6 @@
 from PySide6.QtWidgets import QMainWindow
 from UIFiles.UI_MainWindow import Ui_MainWindow
+import UIClasses.VoltageDivider
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -19,7 +20,7 @@ class MainWindow(QMainWindow):
         self.show()
 
     def actionVoltageDivider(self):
-        print("Voltage Divider Pressed")
+        self.window = UIClasses.VoltageDivider.VoltageDivider()
 
     def actionLoadedVoltageDivider(self):
         print("LoadedVoltage Divider Pressed")
